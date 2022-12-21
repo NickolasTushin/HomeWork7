@@ -32,5 +32,5 @@ for (int i = 0; i < n; i++)
                 {
                     a += array[t, i];
                 }
-                Console.WriteLine($"Cреднее арифметическое элементов столбца {i + 1} = {(float) a / m}");
+                Console.WriteLine($"Cреднее арифметическое элементов столбца {i + 1} = {Math.Round((double) a / m , 2)}");
             }
